@@ -1,56 +1,23 @@
-.game-space{
-    float: middle;
-    width: 100%;
-    max-width: 960px;
-    padding: 120px;
-    margin: 0 0 50px;
-    background: black;
-
-}
 body{
     background-color: black;
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
 }
-p{
-    color: white;
-    font-size: 12px;
+h3 {
+    color: whitesmoke;
+    font-family: 'Quantico', sans-serif;
 }
-h1{
-    color: white;
-    font-size: 36px;
-    text-align: center;
-    padding: 20px;
+#game-title {
+    font-family: 'PT Sans', sans-serif;
 }
-h2{
-    color: white;
-    text-align: center;
-    padding: 10px;
-    font-size: 18px;
+#guess-box {
+    border: 7px dotted whitesmoke;
+    height: 350px;
 }
-#img{
-    max-width: 50%;
-    max-height: 50%;
+#guesses-remain {
+    margin-top: 160px;
 }
-#Started{
-    font-size: 24px;
-    color:white;
+#media-wins {
+    margin-top: 20px;
 }
-.column {
-    column-count: 2;
-    border: 3px dotted yellow;
-    padding: 40px;
-    margin-left: 200px;
-    margin-right: 200px;
-    color: white;
-
-}
-h3{
-    font-size: 65px;
-    color: aqua;
-    text-align: center;
-}
-p{
-    font-size: 12px;
-    color: crimson;
+#current-guess {
+    margin-top: 20px;
 }

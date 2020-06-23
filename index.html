@@ -5,29 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Guess these 90's Black TV Shows !!!!</title>
-    <link rel="stylesheet" href="../Guessing-Game/assets/css/style.css">
-    <link rel="script" href="../Guessing-Game/assets/javascript/game.js">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Quantico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- <link rel="script" href=".assets/javascript/game.js"> -->
 </head>
 <body>
-<div id="main container" class="container">
-    <img src="../Guessing-Game/assets/images/90slogo.png" id="img" alt="logo">
-</div>
-<h1>PRESS ANY KEY TO GET STARTED!</h1>
-<h2>Answer the question that's reguarding the tv show. Good luck!!</h2>
-<div class="row">
-    <div class="column"><h3>Word Bank</h3>
-        <p>Martin</p>
-        <p>Living Single</p>
-        <p>Sister, Sister</p>
-        <p>The Fresh Prince of Bel-Air</p>
-        <p>The Wayans Bros.</p>
-        <p>Moesha</p>
-        <p>Family Matters</p>
-        <p>In Living Color</p>
-
-    </div>
-    <div class="column">javascript keyanswer goes in here</div>
-    <div class="column"> </div>
-</div>
+    <div class="container gamediv">
+        <div class="jumbotron game-jumbotron">
+            <h1 class="display-4" id="game-title">Guess That Iconic Black TV Show</h1>
+            <p class="lead direction">Guess the following tv show by hearing the song associated with the show.</p>
+            <hr class="my-4">
+            <p class="direction" id="begin-key">Press any key to begin the game.</p>
+        </div>
+        <div class="row">
+            <div class="col gamesubdiv" id="guess-box">
+                <div id="media-wins">
+                    <h3 id="music"></h3>
+                    <h3 id="wins-header">Wins:<span id="wins"></span></h3>
+                </div>
+                <div id="current-guess">
+                    <h3 id="current-header">Current Show:</h3>
+                    <div id="current-show"></div>
+                </div>
+                <div id="guesses-remain">
+                    <h3 id="guesses-header">Number of Guesses Remaining:</h3>
+                    <div id="guesses-remain-number"></div>
+                </div>
+                <div id="letters-guessed">
+                    <h3 id="letters-header"></h3>
+                    <div id="letters"></div>
+                </div>
+            </div>
+            <div class="col gamesubdiv" id="answer-box">
+            </div>
+        </div>
+      </div>
+    <script src="assets/javascript/game.js"></script>
 </body>
 </html>
