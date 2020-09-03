@@ -1,7 +1,11 @@
 body{
     background-color: black;
 }
-h3 {
+.shows-div {
+    color: whitesmoke;
+    border: 8px dotted;
+}
+/* h3 {
     color: whitesmoke;
     font-family: 'Quantico', sans-serif;
 }
@@ -20,4 +24,4 @@ h3 {
 }
 #current-guess {
     margin-top: 20px;
-}
+} */
